@@ -3,3 +3,30 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+}
+
+#mission-background {
+	background: url("../img/img-mission-background.jpg") no-repeat center center;
+	height: 700px;
+}
+
+#featured-tea {
+	width: 1000px;
+}
+#featured-tea img {
+	width: 300px;
+	height: 200px;
+}
+
+#locations {
+	height: 500px;
+	background: url("../img/img-locations-background.jpg") no-repeat center center;
+}
