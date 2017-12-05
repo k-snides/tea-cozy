@@ -101,6 +101,23 @@ header nav a {
 	margin-top: 2em;
 	height: 500px;
 	background: url("../img/img-locations-background.jpg") no-repeat center center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#locations h2 {
+	margin-bottom: 15px;
+}
+
+.location-card {
+	height: 300px;
+	width: 300px;
+	background: black;
+	text-align: center;
+	margin: 0 20px;
+	opacity: 1;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
 
