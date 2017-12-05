@@ -11,7 +11,6 @@ body {
 	color: seashell;
 	background-color: black;
 	opacity: 0.9;
-	/*text-align: center;*/
 }
 
 .flex {
@@ -54,7 +53,6 @@ header nav a {
 	height: 700px;
 	align-items: center;
 	justify-content: center;
-	/*border: 1px solid orange;*/
 }
 
 .mission-headings {
@@ -63,7 +61,6 @@ header nav a {
 	text-align: center;
 	background: black;
 	height: 120px;
-	/*margin-top: 100px;*/
 	width: 1200px;
 }
 
@@ -71,16 +68,37 @@ header nav a {
 /* ----- Featured Tea Section ----- */
 #featured-tea {
 	width: 1000px;
+	margin: 0 auto;
+	flex-direction: column;
 }
-#featured-tea img {
+.featured-tea-headings {
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	height: 120px;
+}
+
+.tea-gallery {
+	margin-top: 0.5em;
+	height: 550px;
+	flex-wrap: wrap;
+	align-content: stretch;
+	justify-content: space-around;
+}
+.tea-gallery img {
 	width: 300px;
-	height: 200px;
+	height: 200px;	
+}
+.tea-gallery figcaption {
+	text-align: center;
+	margin-top: 10px;
 }
 
 
 
 /* ----- Locations Section ----- */
 #locations {
+	margin-top: 2em;
 	height: 500px;
 	background: url("../img/img-locations-background.jpg") no-repeat center center;
 }
