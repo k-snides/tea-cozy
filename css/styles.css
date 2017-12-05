@@ -122,7 +122,20 @@ header nav a {
 
 
 
-
+/* ----- Contact & Footer Section ----- */
+footer {
+	text-align: center;
+}
+footer .contact {
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	height: 200px;
+}
+footer p {
+	margin: 20px;
+}
+ 
 
 
 
