@@ -50,7 +50,21 @@ header nav a {
 /* ----- Our Mission Section ----- */
 #mission-background {
 	background: url("../img/img-mission-background.jpg") no-repeat center center;
+	margin-top: 0;
 	height: 700px;
+	align-items: center;
+	justify-content: center;
+	/*border: 1px solid orange;*/
+}
+
+.mission-headings {
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	background: black;
+	height: 120px;
+	/*margin-top: 100px;*/
+	width: 1200px;
 }
 
 
