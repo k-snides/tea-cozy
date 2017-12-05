@@ -1,3 +1,4 @@
+/* ----- General Styles ----- */
 * {
 	padding: 0;
 	margin: 0;
@@ -10,14 +11,50 @@ body {
 	color: seashell;
 	background-color: black;
 	opacity: 0.9;
-	text-align: center;
+	/*text-align: center;*/
 }
 
+.flex {
+	display: flex;
+}
+
+
+/* ----- Main Section ----- */
+main {
+	padding-top: 69px;
+}
+
+/* ----- Header & Navigation ----- */
+header {
+	height: 69px;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+	background: black;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+}
+header .logo {
+	height: 50px;
+}
+header nav a {
+	margin-left: 50px;
+	text-decoration: underline;
+	color: seashell;
+}
+
+
+
+
+/* ----- Our Mission Section ----- */
 #mission-background {
 	background: url("../img/img-mission-background.jpg") no-repeat center center;
 	height: 700px;
 }
 
+
+/* ----- Featured Tea Section ----- */
 #featured-tea {
 	width: 1000px;
 }
@@ -26,7 +63,25 @@ body {
 	height: 200px;
 }
 
+
+
+/* ----- Locations Section ----- */
 #locations {
 	height: 500px;
 	background: url("../img/img-locations-background.jpg") no-repeat center center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
