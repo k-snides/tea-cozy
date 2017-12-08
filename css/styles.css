@@ -23,6 +23,7 @@ main {
 	padding-top: 69px;
 }
 
+
 /* ----- Header & Navigation ----- */
 header {
 	height: 69px;
@@ -42,8 +43,6 @@ header nav a {
 	text-decoration: underline;
 	color: seashell;
 }
-
-
 
 
 /* ----- Our Mission Section ----- */
@@ -85,50 +84,41 @@ header nav a {
 	align-content: stretch;
 	justify-content: space-around;
 }
+.tea-gallery .img-overflow {
+	overflow: hidden;
+}
 .tea-gallery img {
 	width: 300px;
 	height: 200px;
-	transition: transform 0.5s ease-in-out;
+	
+	transition: transform 0.5s ease-in-out,
+							opacity 0.5s ease-in-out;
 }
 .tea-gallery figcaption {
 	text-align: center;
 	margin-top: 10px;
 }
-
-figure {
-}
-figure .img-overflow {
-	overflow: hidden;
-}
-figure img {
-}
 figure:hover img {
 	transform: scale(1.2);
+	opacity: 0.7;
 }
-
 
 
 /* ----- Locations Section ----- */
 #locations {
+	background: url("../img/img-locations-background.jpg") no-repeat center center;
 	margin-top: 2em;
 	height: 500px;
-	background: url("../img/img-locations-background.jpg") no-repeat center center;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
 	perspective: 1000px;
 }
 #locations h2 {
 	margin-bottom: 15px;
 }
 
-.location-cards {
-}
-
 .location-card {
-	height: 300px;
-	width: 300px;
 	background: black;
 	text-align: center;
 	margin: 0 20px;
@@ -143,9 +133,6 @@ figure:hover img {
 .location-card:hover {
 	transform: rotateY(180deg);
 }
-.side-a {
-	
-}
 .side-a,
 .side-b {
 	height: 300px;
@@ -158,7 +145,6 @@ figure:hover img {
 	position: absolute;
 	transform: rotateY(180deg);
 }
-
 
 
 /* ----- Contact & Footer Section ----- */
