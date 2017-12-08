@@ -28,6 +28,7 @@ main {
 header {
 	height: 69px;
 	position: fixed;
+	z-index: 5;
 	width: 100%;
 	border-bottom: 1px solid seashell;
 	background: black;
