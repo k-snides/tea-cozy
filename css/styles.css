@@ -7,10 +7,10 @@
 
 body {
 	font-family: Helvetica;
-	font-size: 22px;
 	color: seashell;
 	background-color: black;
 	opacity: 0.9;
+	font-size: 22px;
 }
 
 .flex {
@@ -87,11 +87,23 @@ header nav a {
 }
 .tea-gallery img {
 	width: 300px;
-	height: 200px;	
+	height: 200px;
+	transition: transform 0.5s ease-in-out;
 }
 .tea-gallery figcaption {
 	text-align: center;
 	margin-top: 10px;
+}
+
+figure {
+}
+figure .img-overflow {
+	overflow: hidden;
+}
+figure img {
+}
+figure:hover img {
+	transform: scale(1.2);
 }
 
 
